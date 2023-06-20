@@ -1,5 +1,5 @@
 # City Bikeshare System
-![Bike Image source from wiki](https://en.wikipedia.org/wiki/Bicycle-sharing_system#/media/File:00_2141_Bicycle-sharing_systems_-_Sweden.jpg)
+![Bike Image source from wiki](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/00_2141_Bicycle-sharing_systems_-_Sweden.jpg/2560px-00_2141_Bicycle-sharing_systems_-_Sweden.jpg)
 
 ## Overview
 The competition is about forecasting the use of bike ride-sharing systems in Washington DC. 
