@@ -26,9 +26,9 @@ The Dataset consists of:
 - count - number of total rentals
 
 ## Summary
-The first EDA we run on the train data shows that the season, workingday, holiday, and weather columns are categorical data. Also, the temp and atemp columns are normal distributions with a bell curve while humidity is negatively skewed. Coupled with that, windspeed and the label ('count') are both positively skewed which means that there are more positive values. The datetime column needs to be converted to datetime in order to view the summary per year, month, day, and hours of the demand for the bikes.
+The first EDA performed on the train data shows that the season, workingday, holiday, and weather columns are categorical data. The temp and atemp columns graph posit a normal distribution with a bell curve and the humidity curve is negatively skewed. Coupled with that, windspeed and the label ('count') are both positively skewed, that explained that the data have more positive values. The datetime column was converted to datetime in order to view the summary per year, month, day, and hours that bikes are rented.
 
-With that being said, we had to create new columns for the datetime, so that we can know the counts of bike demand per year, months, day and hour. Not only that, but we also change the season and weather data type to categorical.
+With that being said, I created new columns for the datetime, to know the counts of bike demand per year, months, day and hour. Not only that, but also change the season and weather data type to categorical.
 
 The LightGBMLarge_BAG_L1 model performed much better than the baseline model with a rmse score of -32.291402; which is 71% much better than the initial algorithm; the fact that it was able to read the new features that were implemented 'year', month, day, hour, and 'season', 'weather' as a categorical to train the algorithms make it perform great on unseen test data. Also, when the LightGBMLarge_BAG_L1 was hyper-tuned with different parameters, it was able to search for a better LightGBMLarge_BAG_L1 model that fit the  unseen data.
 
